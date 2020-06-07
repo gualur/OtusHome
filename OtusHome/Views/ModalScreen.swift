@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ModalScreen.swift
 //  OtusHome
 //
 //  Created by Михаил Аникин on 07.06.2020.
@@ -8,14 +8,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ModalScreen: View {
     var body: some View {
-        Text("Hello, World!")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        VStack {
+            Text("Modal Screen")
+        }
     }
 }

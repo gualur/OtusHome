@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0049C3AC248D4EDB00C8F515 /* UnitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049C3AB248D4EDB00C8F515 /* UnitsViewModel.swift */; };
+		0049C3AE248D589100C8F515 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049C3AD248D589000C8F515 /* ModalScreen.swift */; };
+		006C23D9248D709400BF179D /* UnitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C23D8248D709400BF179D /* UnitCell.swift */; };
 		00DF8835248C4F510042E033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF8834248C4F510042E033 /* AppDelegate.swift */; };
 		00DF8837248C4F510042E033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF8836248C4F510042E033 /* SceneDelegate.swift */; };
 		00DF8839248C4F510042E033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF8838248C4F510042E033 /* ContentView.swift */; };
 		00DF883B248C4F530042E033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DF883A248C4F530042E033 /* Assets.xcassets */; };
 		00DF883E248C4F530042E033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DF883D248C4F530042E033 /* Preview Assets.xcassets */; };
 		00DF8841248C4F530042E033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DF883F248C4F530042E033 /* LaunchScreen.storyboard */; };
+		00DF884A248C4FE90042E033 /* UnitsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF8849248C4FE90042E033 /* UnitsListScreen.swift */; };
+		00DF884C248C4FF70042E033 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF884B248C4FF70042E033 /* MainScreen.swift */; };
+		00DF884E248C50030042E033 /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF884D248C50030042E033 /* AboutScreen.swift */; };
+		00DF8850248C577B0042E033 /* UnitDescriptionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF884F248C577B0042E033 /* UnitDescriptionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0049C3AB248D4EDB00C8F515 /* UnitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsViewModel.swift; sourceTree = "<group>"; };
+		0049C3AD248D589000C8F515 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		006C23D8248D709400BF179D /* UnitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCell.swift; sourceTree = "<group>"; };
 		00DF8831248C4F510042E033 /* OtusHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF8834248C4F510042E033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DF8836248C4F510042E033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		00DF883D248C4F530042E033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00DF8840248C4F530042E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DF8842248C4F530042E033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DF8849248C4FE90042E033 /* UnitsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsListScreen.swift; sourceTree = "<group>"; };
+		00DF884B248C4FF70042E033 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		00DF884D248C50030042E033 /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
+		00DF884F248C577B0042E033 /* UnitDescriptionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitDescriptionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0049C3AA248D4E6A00C8F515 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0049C3AB248D4EDB00C8F515 /* UnitsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		006C23DA248D71CD00BF179D /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				006C23D8248D709400BF179D /* UnitCell.swift */,
+				00DF8849248C4FE90042E033 /* UnitsListScreen.swift */,
+				00DF884F248C577B0042E033 /* UnitDescriptionScreen.swift */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		006C23DB248D71DA00BF179D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00DF884B248C4FF70042E033 /* MainScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		006C23DC248D71FC00BF179D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				00DF884D248C50030042E033 /* AboutScreen.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		00DF8828248C4F510042E033 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +104,10 @@
 		00DF8833248C4F510042E033 /* OtusHome */ = {
 			isa = PBXGroup;
 			children = (
+				0049C3AA248D4E6A00C8F515 /* ViewModels */,
+				00DF8848248C4FB60042E033 /* Views */,
 				00DF8834248C4F510042E033 /* AppDelegate.swift */,
 				00DF8836248C4F510042E033 /* SceneDelegate.swift */,
-				00DF8838248C4F510042E033 /* ContentView.swift */,
 				00DF883A248C4F530042E033 /* Assets.xcassets */,
 				00DF883F248C4F530042E033 /* LaunchScreen.storyboard */,
 				00DF8842248C4F530042E033 /* Info.plist */,
@@ -73,6 +122,18 @@
 				00DF883D248C4F530042E033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00DF8848248C4FB60042E033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				006C23DC248D71FC00BF179D /* About */,
+				006C23DB248D71DA00BF179D /* Main */,
+				006C23DA248D71CD00BF179D /* Unit */,
+				00DF8838248C4F510042E033 /* ContentView.swift */,
+				0049C3AD248D589000C8F515 /* ModalScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0049C3AE248D589100C8F515 /* ModalScreen.swift in Sources */,
 				00DF8835248C4F510042E033 /* AppDelegate.swift in Sources */,
 				00DF8837248C4F510042E033 /* SceneDelegate.swift in Sources */,
+				006C23D9248D709400BF179D /* UnitCell.swift in Sources */,
+				00DF8850248C577B0042E033 /* UnitDescriptionScreen.swift in Sources */,
+				00DF884C248C4FF70042E033 /* MainScreen.swift in Sources */,
 				00DF8839248C4F510042E033 /* ContentView.swift in Sources */,
+				00DF884A248C4FE90042E033 /* UnitsListScreen.swift in Sources */,
+				0049C3AC248D4EDB00C8F515 /* UnitsViewModel.swift in Sources */,
+				00DF884E248C50030042E033 /* AboutScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
